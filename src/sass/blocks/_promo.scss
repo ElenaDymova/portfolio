@@ -1,0 +1,32 @@
+.promo {
+	min-height: 100vh;
+	position: relative;
+	background: url('../img/bacground.png') no-repeat 50%/cover;
+
+	&__description {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 206px;
+	}
+
+	&__link {
+		display: block;
+		color: white;
+		font-weight: bold;
+		&:hover {
+			color:white;
+			text-decoration: none;
+		}
+	}
+
+	&__link-decor {
+		text-shadow: 2px 4px 4px #000000;
+	}
+
+	&__buttons {
+		margin-top: 25px;
+		display: flex;
+		align-items: center;
+	}
+}

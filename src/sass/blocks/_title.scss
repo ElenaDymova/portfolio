@@ -1,0 +1,29 @@
+.title {
+	font-size: 36px;
+
+	&-main {
+		font-size: 48px;
+		color: white;
+		order: 2;
+		width: 535px;
+		margin-top: 10px;
+	}
+
+	&_name {
+		font-size: 14px;
+		font-weight: bold;
+	}
+}
+
+.subtitle {
+	font-size: 16px;
+
+	&-main {
+		color: white;
+		order: 1;
+		position: relative;
+		@include before_circle;
+		padding-left: 10px;
+		z-index: 2;
+	}
+}

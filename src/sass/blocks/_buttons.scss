@@ -1,0 +1,11 @@
+.button {
+	display: block;
+	background-color: $button-color;
+	color: white;
+	min-height: 45px;
+	padding: 12px 45px;
+
+	&-main {
+		margin-right: 44px;
+	}
+}
