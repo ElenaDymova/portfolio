@@ -5,6 +5,10 @@
 	min-height: 45px;
 	padding: 12px 45px;
 	border: none;
+	&:hover {
+		background-color:$decoration-color;
+		color: $button-color;
+	}
 
 	&-main {
 		margin-right: 44px;

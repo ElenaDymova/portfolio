@@ -27,5 +27,8 @@
 		@include before_circle;
 		padding-left: 10px;
 		z-index: 2;
+		&:before {
+			background: $button-color;
+		}
 	}
 }
