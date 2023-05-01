@@ -8,6 +8,8 @@
 	top: 230px;
 	left: 50px;
 	align-items: center;
+	mix-blend-mode: difference;
+	background-color: black;
 
 	&__divider {
 		width: 2px;
