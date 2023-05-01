@@ -18,16 +18,16 @@
 
 	&__wrapper {
 		margin-top: 60px;
-		display: grid;
-		grid-template-columns: repeat(4, 23%);
-		column-gap: 13px;
-		row-gap: 13px;
+		display: flex;
+		column-gap: 50px;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	&__aplication {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		border: 1px solid black;
 		padding: 30px 30px 25px 30px;
 		&-name {

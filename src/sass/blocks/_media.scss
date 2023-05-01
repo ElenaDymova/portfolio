@@ -116,7 +116,7 @@
 
 	.skills {
 		&__wrapper {
-			grid-template-columns: repeat(3,1fr);
+			column-gap: 30px
 		}
 	}
 
@@ -174,11 +174,14 @@
 		margin-top: 60px;
 		&__wrapper {
 			margin-top: 40px;
-			grid-template-columns: repeat(2,1fr);
+		}
+
+		&__aplication {
+			margin-bottom: 20px;
 		}
 
 		&__percents {
-			margin-top: 50px;
+			margin-top: 30px;
 			grid-template-columns: repeat(2,1fr);
 			row-gap: 40px;
 		}
